@@ -1,0 +1,14 @@
+/home/riwip5-006/Documents/cSharp/consoleProject/bin/Debug/net8.0/consoleProject
+/home/riwip5-006/Documents/cSharp/consoleProject/bin/Debug/net8.0/consoleProject.deps.json
+/home/riwip5-006/Documents/cSharp/consoleProject/bin/Debug/net8.0/consoleProject.runtimeconfig.json
+/home/riwip5-006/Documents/cSharp/consoleProject/bin/Debug/net8.0/consoleProject.dll
+/home/riwip5-006/Documents/cSharp/consoleProject/bin/Debug/net8.0/consoleProject.pdb
+/home/riwip5-006/Documents/cSharp/consoleProject/obj/Debug/net8.0/consoleProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/riwip5-006/Documents/cSharp/consoleProject/obj/Debug/net8.0/consoleProject.AssemblyInfoInputs.cache
+/home/riwip5-006/Documents/cSharp/consoleProject/obj/Debug/net8.0/consoleProject.AssemblyInfo.cs
+/home/riwip5-006/Documents/cSharp/consoleProject/obj/Debug/net8.0/consoleProject.csproj.CoreCompileInputs.cache
+/home/riwip5-006/Documents/cSharp/consoleProject/obj/Debug/net8.0/consoleProject.dll
+/home/riwip5-006/Documents/cSharp/consoleProject/obj/Debug/net8.0/refint/consoleProject.dll
+/home/riwip5-006/Documents/cSharp/consoleProject/obj/Debug/net8.0/consoleProject.pdb
+/home/riwip5-006/Documents/cSharp/consoleProject/obj/Debug/net8.0/consoleProject.genruntimeconfig.cache
+/home/riwip5-006/Documents/cSharp/consoleProject/obj/Debug/net8.0/ref/consoleProject.dll
