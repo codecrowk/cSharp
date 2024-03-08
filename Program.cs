@@ -2,31 +2,28 @@
 
 namespace MyApplication
 {
-  class Calculator 
+  class GradeCalculator 
   {
-    public int addition (int numberOne, int numberTwo) {
-      return numberOne + numberTwo;
+    static IDictionary<string, double> grades = new Dictionary<string, double>();
+
+    public void addGrade(string gradeName, double gradeValue){
+      grades.Add(gradeName, gradeValue);
     }
 
-    public int sustract (int numberOne, int numberTwo) {
-      return numberOne - numberTwo;
-    }
 
-    public int multiplication (int numberOne, int numberTwo) {
-      return numberOne * numberTwo;
-    }
-
-    public int division (int dividend, int divisor) {
-      return dividend / divisor;
-    }
   }
   class Program
   {
     static void Main()
     {
-      Calculator MyCalculator = new Calculator();
-      Console.WriteLine("Bienvenido a su calculadora \nIngrese la operacion que desea realizar");
-
+      int gradesToRequest = 3;
+      GradeCalculator GradeMethods = new GradeCalculator();
+      for (int i = 0; i < gradesToRequest; i++){
+        string gradeName = $"Nota{i+1}";
+        Console.Write($"Ingrese la nota {i+1}: ");
+        double gradeValue = double.Parse(Console.ReadLine());
+        GradeMethods.addGrade(gradeName, gradeValue);
+      }
     }
   }
 }
