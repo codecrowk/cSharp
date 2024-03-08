@@ -2,27 +2,31 @@
 
 namespace MyApplication
 {
-  class NumberClasificator 
+  class Calculator 
   {
-    static bool getPositiveNegative (int userNumber){
-      bool isPositive = userNumber > 0;
-      return isPositive;
-    }
-    
-    static bool getOddEven (int userNumber){
-      bool isPositive = userNumber > 0;
-      return isPositive;
+    public int addition (int numberOne, int numberTwo) {
+      return numberOne + numberTwo;
     }
 
-    static bool isCeroNumber (int userNumber){
-      bool isCero = userNumber == 0;
-      return isCero;
+    public int sustract (int numberOne, int numberTwo) {
+      return numberOne - numberTwo;
+    }
+
+    public int multiplication (int numberOne, int numberTwo) {
+      return numberOne * numberTwo;
+    }
+
+    public int division (int dividend, int divisor) {
+      return dividend / divisor;
     }
   }
   class Program
   {
-    static void Main(string[] args)
+    static void Main()
     {
+      Calculator MyCalculator = new Calculator();
+      Console.WriteLine("Bienvenido a su calculadora \nIngrese la operacion que desea realizar");
+
     }
   }
 }

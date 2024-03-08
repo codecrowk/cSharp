@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/riwip5-006/Documents/cSharp/consoleProject/consoleProject.csproj",
+      "projectUniqueName": "/home/riwip5-006/Documents/cSharp/consoleProject.csproj",
       "projectName": "consoleProject",
-      "projectPath": "/home/riwip5-006/Documents/cSharp/consoleProject/consoleProject.csproj",
+      "projectPath": "/home/riwip5-006/Documents/cSharp/consoleProject.csproj",
       "packagesPath": "/home/riwip5-006/.nuget/packages/",
-      "outputPath": "/home/riwip5-006/Documents/cSharp/consoleProject/obj/",
+      "outputPath": "/home/riwip5-006/Documents/cSharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/riwip5-006/.nuget/NuGet/NuGet.Config"
