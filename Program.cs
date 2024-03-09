@@ -2,28 +2,55 @@
 
 namespace MyApplication
 {
-  class GradeCalculator 
-  {
-    static IDictionary<string, double> grades = new Dictionary<string, double>();
+  class QuickSort {
+    public void init(){
+      int pivot;
+      int secodPointer = -1;
+      int comparedNumber;
+      int temporalNumber;
+      int []numeros = {14, 7, 23, 12, 118, 5, 10, 2, 16, 25, 20, 3, 17, 9, 24, 11, 6, 
+        15, 21, 8, 22, 4, 19, 13};
+      int lastIndex = numeros.Length -1;
+      pivot = numeros[lastIndex];
 
-    public void addGrade(string gradeName, double gradeValue){
-      grades.Add(gradeName, gradeValue);
+      for (int position = 0; position < numeros.Length; position++){
+        comparedNumber = numeros[position];
+        if (comparedNumber > pivot){
+          secodPointer = position;
+        } 
+        else if ((comparedNumber < pivot) && (secodPointer >= 0)){
+          temporalNumber = comparedNumber;
+          // Making position change
+
+        }
+      }
     }
+  }
 
-
+  class InsertionShort 
+  {
+    public void Init (){
+      int[] numeros = {14, 7, 23, 12, 118, 5, 10, 2, 16, 25, 20, 3, 17, 9, 24, 11, 6, 
+        15, 21, 8, 22, 4, 19, 13};
+      int key;
+      // int key = numeros.First();
+      for (int i = 0; i < numeros.Length; i++)
+      {
+        key = numeros[i +1];
+        for (int x = 0; x < numeros.Length; x++)
+        {
+          int compareNum = numeros[x];
+          if (key < compareNum){
+            numeros[i] = key;
+            numeros[x] = 0;  
+          }
+        }
+      }
+    }
   }
   class Program
   {
-    static void Main()
-    {
-      int gradesToRequest = 3;
-      GradeCalculator GradeMethods = new GradeCalculator();
-      for (int i = 0; i < gradesToRequest; i++){
-        string gradeName = $"Nota{i+1}";
-        Console.Write($"Ingrese la nota {i+1}: ");
-        double gradeValue = double.Parse(Console.ReadLine());
-        GradeMethods.addGrade(gradeName, gradeValue);
-      }
+    public static void Main(){
     }
   }
 }
