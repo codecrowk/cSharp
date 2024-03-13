@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/riwip5-006/Documents/cSharp/consoleProject.csproj": {}
+    "/home/riwip5-047/Documents/cSharp/consoleProject.csproj": {}
   },
   "projects": {
-    "/home/riwip5-006/Documents/cSharp/consoleProject.csproj": {
+    "/home/riwip5-047/Documents/cSharp/consoleProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/riwip5-006/Documents/cSharp/consoleProject.csproj",
+        "projectUniqueName": "/home/riwip5-047/Documents/cSharp/consoleProject.csproj",
         "projectName": "consoleProject",
-        "projectPath": "/home/riwip5-006/Documents/cSharp/consoleProject.csproj",
-        "packagesPath": "/home/riwip5-006/.nuget/packages/",
-        "outputPath": "/home/riwip5-006/Documents/cSharp/obj/",
+        "projectPath": "/home/riwip5-047/Documents/cSharp/consoleProject.csproj",
+        "packagesPath": "/home/riwip5-047/.nuget/packages/",
+        "outputPath": "/home/riwip5-047/Documents/cSharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/riwip5-006/.nuget/NuGet/NuGet.Config"
+          "/home/riwip5-047/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
