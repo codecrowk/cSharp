@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/riwip5-006/.nuget/packages/": {}
+    "/home/riwip5-047/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/riwip5-006/Documents/proyectosCSharp/PracticaJobs/PracticaJobs.csproj",
+      "projectUniqueName": "/home/riwip5-047/Documents/cSharp/PracticaJobs.csproj",
       "projectName": "PracticaJobs",
-      "projectPath": "/home/riwip5-006/Documents/proyectosCSharp/PracticaJobs/PracticaJobs.csproj",
-      "packagesPath": "/home/riwip5-006/.nuget/packages/",
-      "outputPath": "/home/riwip5-006/Documents/proyectosCSharp/PracticaJobs/obj/",
+      "projectPath": "/home/riwip5-047/Documents/cSharp/PracticaJobs.csproj",
+      "packagesPath": "/home/riwip5-047/.nuget/packages/",
+      "outputPath": "/home/riwip5-047/Documents/cSharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/riwip5-006/.nuget/NuGet/NuGet.Config"
+        "/home/riwip5-047/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

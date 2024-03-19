@@ -32,4 +32,25 @@ app.MapGet("calculadora/dividir", () => {
   int resultado = Calculadora.Dividir(numero1, numero2);
   return $"El resultado de dividir {numero1} con {numero2} es: {resultado}";
 });
+
+app.MapGet("person/greeting", () => {
+  Person person = new Person();
+  string name = "Jose";
+  string lastname = "Antoni";
+  return person.Greeting(name, lastname);
+});
+
+app.MapGet("person/count_sentence", () => {
+  Person person = new Person();
+  string sentence = "Bueno dias mi nombre es Mario Orvaldo, tengo 34 annos de edad";
+  string sentenceTest = "cinco";
+  return person.GetSentenceLength(sentence);
+});
+
+app.MapGet("person/greeting", () => {
+  Person person = new Person();
+  string name = "Jose";
+  string lastname = "Antoni";
+  return person.Greeting(name, lastname);
+});
 app.Run();

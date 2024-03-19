@@ -24,24 +24,4 @@ namespace Clases
       return numero1 / numero2;
     }
   }
-
-  public class Password 
-  {
-    public string GeneratePassword (){
-      return "<PASSWORD>";
-    }
-
-    public string ValidatePassword(string password)
-    {
-      return password == "<PASSWORD>"? "Password correcta" : "Password incorrecta";
-    }
-
-    public string CheckPassworSecurity(){
-      return "hola";
-    }
-  }
-  public class Persona 
-  {
-
-  }
 }
